@@ -28,7 +28,7 @@
  <?php
     $host = "bmpnj-test-server";
     $user = "riopurcahyanto";
-    $pass = "Donthavetime1";
+    $pass = "Donthavetime.1";
     $db = "bmpnjtest";
 
     try {
