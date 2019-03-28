@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "bmpnj-test-server";
-    $user = "riopurcahyanto";
-    $pass = "Donthavetime.1";
-    $db = "bmpnjtest";
+    $host = bmpnj-test-server;
+    $user = riopurcahyanto;
+    $pass = Donthavetime.1;
+    $db = bmpnjtest;
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
